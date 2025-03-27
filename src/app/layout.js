@@ -17,8 +17,35 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  const metadata = {
+    title: "workout",
+    siteFavicon: "/dumbbell.svg",
+    description: "Figma to Next js fitness",
+    viewport:
+      "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+    openGraph: {
+      title: "workout",
+      description: "Figma to Next js fitness",
+      image: "/dumbbell.svg",
+    },
+    twitter: {
+      title: "workout",
+      description: "Figma to Next js fitness",
+      image: "/dumbbell.svg",
+    },
+  };
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href={metadata?.siteFavicon} />
+        <title>{metadata?.title}</title>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0"
+        />
+        <meta name="description" content={metadata?.description} />
+        <meta property="og:image" content={metadata?.siteFavicon} />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
