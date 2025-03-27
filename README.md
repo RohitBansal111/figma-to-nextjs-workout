@@ -14,7 +14,9 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 - Uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) for font optimization
 - Easily deployable on Vercel
 
-## Figma 
 
-![/home/webexpert/Downloads/Frame 1.png/home/webexpert/Downloads/Frame 1.png](<Frame 1.png>)
+## Figma
+
+![Project Screenshot](https://res.cloudinary.com/djqw1f0jn/image/authenticated/s--iUxqZ61g--/v1743050891/Frame_1_cpd2rr.png)
+
 
